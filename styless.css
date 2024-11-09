@@ -4,13 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Bai Jamjuree SemiBold;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 21px;
+  gap: 17px;
 }
 
 .logo {
@@ -36,6 +37,7 @@ header {
   line-height: 40px;
   letter-spacing: -0.52173912525177px;
   text-align: center;
+  font-family: Bai Jamjuree SemiBold;
 }
 
 .button-section {
@@ -78,6 +80,32 @@ header {
   border-radius: 28px;
 }
 
+.keep-track-style {
+  font-family: Bai Jamjuree SemiBold;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: -0.5869565010070801px;
+  text-align: center;
+  color: #4c545c;
+}
+
+.contact-section {
+  font-family: Bai Jamjuree;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.13500000536441803px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c545c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 .image-computer {
   width: 312px;
 }
@@ -86,9 +114,96 @@ header {
   width: 272px;
 }
 
+.supercharge-style {
+  color: #4c545c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.52173912525177px;
+  text-align: center;
+  font-family: Bai Jamjuree SemiBold;
+}
+
+.span-style {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+  color: #9eabb2;
+}
+
+.icon-blacklist-style {
+  font-family: Bai Jamjuree SemiBold;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.3913043141365051px;
+  text-align: center;
+  color: #4c545c;
+}
+
+.search-sync-section {
+  font-family: Bai Jamjuree SemiBold;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.3913043141365051px;
+  text-align: center;
+  color: #4c545c;
+}
+
+.search-sync-span-section {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+  color: #9eabb2;
+}
+
+.access-style {
+  font-family: Bai Jamjuree SemiBold;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: -0.4565216898918152px;
+  text-align: center;
+  color: #4c545c;
+}
+
+.access-span-style {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.11999999731779099px;
+  text-align: center;
+  color: #9eabb2;
+}
+
 .logo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 57px;
+}
+
+.clipboard-style {
+  color: #4c545c;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.52173912525177px;
+  text-align: center;
+  font-family: Bai Jamjuree SemiBold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
