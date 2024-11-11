@@ -13,11 +13,13 @@
         rel="bg-header-mobile"
         class="bg-header-mobile"
       />
+      <img
+        src="assets/bg-header-desktop.png"
+        rel="bg-header-desktop"
+        class="bg-header-desktop"
+      />
       <img src="assets/logo.svg" rel="logo" class="logo" />
-      <header>
-        A history of<br />
-        everything you copy
-      </header>
+      <header>A history of everything you copy</header>
       <p class="paragraph-style">
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
@@ -32,25 +34,31 @@
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
       </p>
-      <img
-        src="assets/image-computer.png"
-        rel="image-computer"
-        class="image-computer"
-      />
-      <h2 class="search-sync-section">Quick Search</h2>
-      <span class="search-sync-span-section"
-        >Easily search your snippets by content, category, web address,
-        application, and more.</span
-      >
-      <h2 class="search-sync-section">iCloud Sync</h2>
-      <span class="search-sync-span-section"
-        >Instantly saves and syncs snippets across all your devices.</span
-      >
-      <h2 class="search-sync-section">Complete History</h2>
-      <span class="search-sync-span-section"
-        >Retrieve any snippets from the first moment you started using the
-        app.</span
-      >
+      <div class="comp-search-section">
+        <img
+          src="assets/image-computer.png"
+          rel="image-computer"
+          class="image-computer"
+        />
+        <div class="history-section">
+          <div>
+            <h2 class="search-sync-section">Quick Search</h2>
+            <span class="search-sync-span-section"
+              >Easily search your snippets by content, category, web address,
+              application, and more.</span
+            >
+          </div>
+          <h2 class="search-sync-section">iCloud Sync</h2>
+          <span class="search-sync-span-section"
+            >Instantly saves and syncs snippets across all your devices.</span
+          >
+          <h2 class="search-sync-section">Complete History</h2>
+          <span class="search-sync-span-section"
+            >Retrieve any snippets from the first moment you started using the
+            app.</span
+          >
+        </div>
+      </div>
       <h1 class="access-style">Access Clipboard Anywhere</h1>
       <span class="access-span-style"
         >Whether you’re on the go, or at your computer, you can access all your
@@ -65,31 +73,40 @@
       <span class="span-style"
         >We’ve got the tools to boost your productivity.</span
       >
-      <img
-        src="assets/icon-blacklist.svg"
-        rel="icon-blacklist"
-        class="icon-blacklist"
-      />
-      <h3 class="icon-blacklist-style">Create blacklists</h3>
-      <span class="span-style"
-        >Ensure sensitive information never makes its way to your clipboard by
-        excluding certain sources.</span
-      >
-      <img src="assets/icon-text.svg" rel="icon-text" class="icon-text" />
-      <h3 class="icon-blacklist-style">Plain text snippets</h3>
-      <span class="span-style"
-        >Remove unwanted formatting from copied text for a consistent
-        look.</span
-      >
-      <img
-        src="assets/icon-preview.svg"
-        rel="icon-preview"
-        class="icon-preview"
-      />
-      <h3 class="icon-blacklist-style">Sneak preview</h3>
-      <span class="span-style"
-        >Quick preview of all snippets on your Clipboard for easy access.</span
-      >
+      <div class="blacklists-section">
+        <div class="section-one">
+          <img
+            src="assets/icon-blacklist.svg"
+            rel="icon-blacklist"
+            class="icon-blacklist"
+          />
+          <h3 class="icon-blacklist-style">Create blacklists</h3>
+          <span class="span-style"
+            >Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.</span
+          >
+        </div>
+        <div class="section-one">
+          <img src="assets/icon-text.svg" rel="icon-text" class="icon-text" />
+          <h3 class="icon-blacklist-style">Plain text snippets</h3>
+          <span class="span-style"
+            >Remove unwanted formatting from copied text for a consistent
+            look.</span
+          >
+        </div>
+        <div class="section-one">
+          <img
+            src="assets/icon-preview.svg"
+            rel="icon-preview"
+            class="icon-preview"
+          />
+          <h3 class="icon-blacklist-style">Sneak preview</h3>
+          <span class="span-style"
+            >Quick preview of all snippets on your Clipboard for easy
+            access.</span
+          >
+        </div>
+      </div>
       <div class="logo-section">
         <img
           src="assets/logo-google.png"
@@ -117,32 +134,40 @@
         >Available for free on the App Store. Download for Mac or iOS, sync with
         iCloud and you’re ready to start adding to your clipboard.</span
       >
-      <button class="button-one">Download for iOS</button>
-      <button class="button-two">Download for Mac</button>
-      <img src="assets/logo.svg" rel="logo" class="logo-two" />
-      <div class="contact-section">
-        <span>FAQs</span>
-        <span>Contact Us</span>
-        <span>Privacy Policy</span>
-        <span>Press Kit</span>
-        <span>Install Guide</span>
+      <div class="button-section">
+        <button class="button-one">Download for iOS</button>
+        <button class="button-two">Download for Mac</button>
       </div>
       <footer>
-        <img
-          src="assets/icon-facebook.svg"
-          rel="icon-facebook"
-          class="icon-facebook"
-        />
-        <img
-          src="assets/icon-twitter.svg"
-          rel="icon-twitter"
-          class="icon-twitter"
-        />
-        <img
-          src="assets/icon-instagram.svg"
-          rel="icon-instagram"
-          class="icon-instagram"
-        />
+        <img src="assets/logo.svg" rel="logo" class="logo-two" />
+        <div class="contact-section">
+          <div class="contact-us-style contact-button contact-button-one">
+            <span>FAQs</span>
+            <span class="contact-button">Contact Us</span>
+          </div>
+          <div class="press-kit-style">
+            <span>Privacy Policy</span>
+            <span>Press Kit</span>
+          </div>
+          <span>Install Guide</span>
+        </div>
+        <div class="icon-section icon-button">
+          <img
+            src="assets/icon-facebook.svg"
+            rel="icon-facebook"
+            class="icon-facebook"
+          />
+          <img
+            src="assets/icon-twitter.svg"
+            rel="icon-twitter"
+            class="icon-twitter icon-button"
+          />
+          <img
+            src="assets/icon-instagram.svg"
+            rel="icon-instagram"
+            class="icon-instagram"
+          />
+        </div>
       </footer>
     </main>
   </body>
